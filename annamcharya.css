@@ -1,0 +1,73 @@
+/* Page styling */
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#4f1aca,#2400a5);
+}
+
+/* Heading styles */
+h1{
+    color:#ffffff;
+    margin-top:50px;
+    font-size:40px;
+}
+
+h2{
+    color:#ffffff;
+    margin-bottom:20px;
+}
+
+/* Form box */
+form{
+    background:white;
+    width:350px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Table alignment */
+table{
+    margin:auto;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"]{
+    width:180px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"]{
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+/* Login button */
+input[type="submit"]{
+    background:#4CAF50;
+    color:white;
+}
+
+/* Clear button */
+input[type="reset"]{
+    background:#f44336;
+    color:white;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover{
+    background:#3e8e41;
+}
+
+input[type="reset"]:hover{
+    background:#d32f2f;
+}
